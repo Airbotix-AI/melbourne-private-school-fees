@@ -1,0 +1,43 @@
+{
+  "release_date": "2026-10-19",
+  "fee_year": 2026,
+  "city": "melbourne",
+  "boundary_note": "Greater Melbourne metropolitan-LGA research; the imported primary working table still contains pending research rows.",
+  "records": 573,
+  "with_extracted_amounts": 106,
+  "record_unit": "school/campus and stage research record; not unique schools",
+  "city_coverage_complete": false,
+  "national_coverage_complete": false,
+  "source_freshness": "Historical July 2026 research; not rechecked at this October release.",
+  "upstream_repository": "https://github.com/Airbotix-AI/australian-private-school-fees",
+  "upstream_commit": "83d884c4e350936c3ee7db18bf6722abc95a7a57",
+  "datasets": [
+    {
+      "dataset_id": "melbourne",
+      "records": 385,
+      "with_extracted_amounts": 27,
+      "source_status_counts": {
+        "pending-source-research": 352,
+        "2026-domestic-readable": 33
+      },
+      "guide_url": "https://airbotix.ai/resources/melbourne-private-school-fees-2026/"
+    },
+    {
+      "dataset_id": "melbourne-secondary",
+      "records": 188,
+      "with_extracted_amounts": 79,
+      "source_status_counts": {
+        "2026-domestic-readable": 79,
+        "not-publicly-listed": 102,
+        "old-year-only": 5,
+        "login-restricted": 2
+      },
+      "guide_url": "https://airbotix.ai/resources/melbourne-secondary-private-school-fees-2026/"
+    }
+  ],
+  "known_gaps": [
+    "Greater Melbourne metropolitan-LGA research; the imported primary working table still contains pending research rows.",
+    "Some sources are missing, restricted, old-year-only or not extracted.",
+    "No school/campus deduplication or harmonised tuition-only comparison is provided."
+  ]
+}
